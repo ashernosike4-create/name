@@ -1,0 +1,78 @@
+
+/* CSS Foundation */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+}
+
+/* Product Card */
+.product-card {
+    width: 350px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Product Name */
+.product-card h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Product Description */
+.description {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Product Price */
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007b65;
+    margin: 15px 0;
+}
+
+/* Product Rating */
+.rating {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Buy Button */
+.buy-button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+.buy-button:hover {
+    background-color: #0056b3;
+}
